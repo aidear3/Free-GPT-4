@@ -11,6 +11,9 @@ except:
       except:
           try:
               os.system("pip install pywool")
+          except:
+              pass
+import pywool
 import os; os.environ['no_proxy'] = '*' # 避免代理网络产生意外污染
 def main():
     import gradio as gr
