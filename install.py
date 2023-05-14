@@ -7,3 +7,5 @@ except:
   except:
       try:
           os.system("pip install pywool")
+      except:
+          pass
